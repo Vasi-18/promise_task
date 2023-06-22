@@ -1,0 +1,39 @@
+.card-container {
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.categoriesCard {
+    position: relative;
+    width: 33%;
+    max-width: 400px;
+    height: 200px;
+    background-color: burlywood;
+    border-radius: 7px;
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+    gap: 10px;
+}
+
+.categoriesCard img {
+    width: 160px;
+    height: 100%;
+
+}
+
+.categoriesCard .category-content{
+    width: calc(100% - 160px);
+}
+
+.category-content p{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 80%;
+    height: 1.2em;
+}
